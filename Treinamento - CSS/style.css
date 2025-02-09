@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
   display: flex;
   width: auto;
@@ -16,6 +17,7 @@ header {
   color: white;
   font-size: 18px;
 }
+
 header .links {
   display: flex;
   flex-direction: row;
@@ -27,17 +29,21 @@ header span:hover {
   color: red;
   cursor: pointer;
 }
+
 header span:active {
   color: gold;
 }
+
 header a:hover {
   text-decoration: underline red;
   cursor: pointer;
 }
+
 header a:active {
   text-decoration: underline red;
   color: gold;
 }
+
 .about {
   border: 3px solid;
   border-image: linear-gradient(45deg, #cc0000, #000000) 1;
@@ -51,6 +57,7 @@ header a:active {
   background: lightgrey;
   color: black;
 }
+
 .about img {
   width: 247px;
   height: 247px;
@@ -58,6 +65,7 @@ header a:active {
   background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   box-shadow: 4px 4px 4px 0px red;
 }
+
 .texto {
   display: flex;
   flex-direction: column;
@@ -67,12 +75,14 @@ header a:active {
   justify-content: center;
   align-items: left;
 }
+
 .tops {
   display: flex;
   gap: 50px;
   justify-content: center;
   background-color: #ffffff;
 }
+
 .tops li {
   display: flex;
   width: 102px;
@@ -91,6 +101,7 @@ header a:active {
   justify-content: center;
   /* align-content: center; */
 }
+
 .tops li span {
   display: flex;
   align-items: center;
@@ -101,33 +112,43 @@ header a:active {
   height: 30px;
   width: 120px;
 }
+
 .tops h3 {
   margin: 1vw;
 }
 
 .hobbies .listadesordenada li:first-child {
   background-image: url(img/praticar\ esporte.webp);
-  text-emphasis: bold;
+  width: 102px;
+  height: 150px;
   text-align: center;
 }
+
 .hobbies .listadesordenada li:nth-child(2) {
   background-image: url(img/campeonato-gamer-1.jpg);
-  text-emphasis: bold;
+  width: 102px;
+  height: 150px;
   text-align: center;
 }
+
 .hobbies .listadesordenada li:nth-child(3) {
   background-image: url(img/2016-02-19-netflix-tv-divulgacao.webp);
-  text-emphasis: bold;
+  width: 102px;
+  height: 150px;
   text-align: center;
 }
+
 .hobbies .listadesordenada li:nth-child(4) {
   background-image: url(img/encontrar\ amigos.jpg);
-  text-emphasis: bold;
+  width: 102px;
+  height: 150px;
   text-align: center;
 }
+
 .hobbies .listadesordenada li:last-child {
   background-image: url(img/cblol.jpg);
-  text-emphasis: bold;
+  width: 102px;
+  height: 150px;
   text-align: center;
 }
 
@@ -137,10 +158,12 @@ header a:active {
 
   align-items: flex-end;
 }
+
 .esportes {
   display: flex;
   flex-direction: column;
 }
+
 .hobbies .listadesordenada,
 .esportes .listaordenada {
   display: flex;
@@ -149,13 +172,14 @@ header a:active {
   gap: 1vw;
   list-style: none;
   position: relative;
-  
 }
+
 .hobbies .listadesordenada li,
 .esportes .listaordenada li {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;}
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 #primeiro div {
   width: 19px;
@@ -183,6 +207,7 @@ header a:active {
   align-self: flex-start;
   color: #ffd700;
 }
+
 #segundo div {
   width: 19px;
   height: 44px;
@@ -209,6 +234,7 @@ header a:active {
   align-self: flex-start;
   color: #c0c0c0;
 }
+
 #terceiro div {
   width: 19px;
   height: 44px;
@@ -238,18 +264,37 @@ header a:active {
 
 .esportes .listaordenada li:first-child {
   background-image: url(img/futebol.jpg);
+  width: 102px;
+  height: 150px;
+  text-align: center;
 }
+
 .esportes .listaordenada li:nth-child(2) {
   background-image: url(img/Volei-CBV-SuperligaMasculinadeVolei-SuperligaFemininadeVolei-1.png);
+  width: 102px;
+  height: 150px;
+  text-align: center;
 }
+
 .esportes .listaordenada li:nth-child(3) {
   background-image: url(img/ESCOLA-GUGA-@-Tennis-foto-Caio-Graca-185-1.webp);
+  width: 102px;
+  height: 150px;
+  text-align: center;
 }
+
 .esportes .listaordenada li:nth-child(4) {
   background-image: url(img/beach-tennis.webp);
+  width: 102px;
+  height: 150px;
+  text-align: center;
 }
+
 .esportes .listaordenada li:last-child {
   background-image: url(img/mao-posicionando-peteca-em-uma-raquete-de-badminton.webp);
+  width: 102px;
+  height: 150px;
+  text-align: center;
 }
 
 #feedbacks {
@@ -260,8 +305,8 @@ header a:active {
   padding: 1vw 15vw;
   gap: 1vw;
 }
+
 #feedbacks h3 {
-  translate: -2vw;
   color: #000;
   font-family: Alata;
   font-size: 24px;
@@ -295,6 +340,7 @@ textarea {
 #feedbacks textarea {
   padding-top: 1.5%;
 }
+
 #feedbacks textarea::placeholder {
   color: #454444;
   font-family: Alata;
@@ -303,6 +349,7 @@ textarea {
   font-weight: 400;
   line-height: 24px;
 }
+
 #feedbacks input::placeholder {
   color: #454444;
   font-family: Alata;
@@ -326,6 +373,7 @@ textarea {
   font-weight: 400;
   line-height: 24px;
 }
+
 #feedbacks form div {
   display: flex;
   justify-content: flex-end;
@@ -343,11 +391,13 @@ footer nav {
   gap: 70%;
   background: whitesmoke;
 }
+
 footer div {
   display: flex;
   flex-direction: row;
   gap: 1vw;
 }
+
 footer button {
   font-family: Alata;
   font-size: 16px;
@@ -363,7 +413,9 @@ footer button {
   color: white;
 }
 
-button:hover, #feedbacks input:hover, #feedbacks textarea:hover {
+button:hover,
+#feedbacks input:hover,
+#feedbacks textarea:hover {
   cursor: pointer;
   animation: animarBorda 0.7s infinite alternate;
 }
@@ -372,12 +424,11 @@ button:hover, #feedbacks input:hover, #feedbacks textarea:hover {
   0% {
     border-image: linear-gradient(45deg, #cc0000, #000000) 1;
   }
+
   100% {
     border-image: linear-gradient(45deg, #000000, #cc0000) 1;
   }
 }
-
-
 
 @media screen and (max-width: 1200px) {
   header {
@@ -446,8 +497,7 @@ button:hover, #feedbacks input:hover, #feedbacks textarea:hover {
   }
 
   #feedbacks h3 {
-    translate: 0;
-    text-align: center;
+    text-align: left;
   }
 
   #feedbacks button {
@@ -466,7 +516,6 @@ button:hover, #feedbacks input:hover, #feedbacks textarea:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
-
 
   footer nav > button {
     order: 1;
@@ -503,32 +552,42 @@ button:hover, #feedbacks input:hover, #feedbacks textarea:hover {
     margin-inline: 2vw;
     padding: 1vw 2vw;
   }
-}
 
-@media screen and (max-width: 480px) {
-  header {
-    font-size: 16px;
+  #feedbacks form div {
+    display: flex;
+    justify-content: center;
   }
 
-  .tops li {
-    width: 100%;
-  }
+  @media screen and (max-width: 480px) {
+    header {
+      font-size: 16px;
+    }
 
-  .tops li span {
-    width: 100%;
-  }
+    .tops li {
+      width: 100%;
+    }
 
-  .hobbies .listadesordenada li,
-  .esportes .listaordenada li {
-    width: 100%;
-  }
+    .tops li span {
+      width: 100%;
+    }
 
-  #feedbacks input,
-  #feedbacks textarea {
-    font-size: 14px;
-  }
+    .hobbies .listadesordenada li,
+    .esportes .listaordenada li {
+      width: 100%;
+    }
 
-  footer nav {
-    padding: 10px;
+    #feedbacks input,
+    #feedbacks textarea {
+      font-size: 14px;
+    }
+
+    #feedbacks form div {
+      display: flex;
+      justify-content: center;
+    }
+
+    footer nav {
+      padding: 10px;
+    }
   }
 }
